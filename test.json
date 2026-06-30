@@ -1,0 +1,31 @@
+{
+  "version": "2.0",
+  "routeKey": "GET /images/test.jpg",
+  "rawPath": "/images/test.jpg",
+  "rawQueryString": "",
+  "headers": {
+    "accept": "*/*",
+    "content-type": "application/json",
+    "host": "example.execute-api.us-east-1.amazonaws.com",
+    "user-agent": "curl/7.64.1"
+  },
+  "requestContext": {
+    "accountId": "123456789012",
+    "apiId": "api-id",
+    "domainName": "example.execute-api.us-east-1.amazonaws.com",
+    "domainPrefix": "example",
+    "http": {
+      "method": "GET",
+      "path": "/images/test.jpg",
+      "protocol": "HTTP/1.1",
+      "sourceIp": "192.0.2.1",
+      "userAgent": "curl/7.64.1"
+    },
+    "requestId": "id",
+    "routeKey": "GET /images/{proxy+}",
+    "stage": "$default",
+    "time": "12/Mar/2020:19:03:58 +0000",
+    "timeEpoch": 1583348638390
+  },
+  "isBase64Encoded": false
+}
