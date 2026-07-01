@@ -106,7 +106,7 @@ resource "aws_iam_role_policy" "lambda_s3" {
 # Attach AWS managed policy for Lambda basic execution
 resource "aws_iam_role_policy_attachment" "lambda_basic" {
   role       = aws_iam_role.lambda.name
-  policy_arn = "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+  policy_arn = "arn:aws-us-gov:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
 }
 
 # CloudWatch Log Group for Lambda
