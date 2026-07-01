@@ -66,8 +66,3 @@ resource "aws_lambda_permission" "api_gateway" {
   principal     = "apigateway.amazonaws.com"
   source_arn    = "${aws_apigatewayv2_api.image_service.execution_arn}/*/*"
 }
-
-output "api_gateway_url" {
-  description = "API Gateway endpoint URL"
-  value       = aws_apigatewayv2_api.image_service.api_endpoint
-}
